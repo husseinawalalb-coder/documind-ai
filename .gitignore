@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+cv_env/
+
+# Local databases
+chroma_db/
+chroma_db_streamlit/
+
+# PDF documents and extracted data
+*.pdf
+
+# Environment variables
+.env
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
